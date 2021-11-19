@@ -38,7 +38,7 @@ app.use('/user', userRoutes);
  * MAIN BASE GET PATH
  */
 app.get('/', (req, res) => {
-    res.send('<div style="width: 100%; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center"><h1 style="color: blueviolet">API RUNNING...</h1><p style="color: lightcoral">Tariqul islam</p></div>')
+    res.send('<div style="width: 100%; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center"><h1 style="color: blueviolet">API RUNNING...</h1><p style="color: lightcoral">xyz.com</p></div>')
 })
 
 mongoose.connect(
